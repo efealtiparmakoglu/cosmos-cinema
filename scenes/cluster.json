@@ -1,0 +1,50 @@
+{
+  "seed": 7,
+  "galaxies": [],
+  "clusters": [
+    {
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "count": 3500,
+      "radius": 7,
+      "mass": 1.0
+    }
+  ],
+  "singles": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "vel": [
+        0,
+        0,
+        0
+      ],
+      "mass": 500
+    }
+  ],
+  "sim": {
+    "dt": 0.006,
+    "steps": 440,
+    "softening": 2.0
+  },
+  "render": {
+    "width": 800,
+    "height": 450,
+    "every": 2,
+    "fps": 16,
+    "span": 30,
+    "vmax": 6,
+    "center": [
+      0,
+      0,
+      0
+    ]
+  },
+  "output": "renders/cluster.gif"
+}

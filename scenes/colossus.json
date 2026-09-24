@@ -1,0 +1,56 @@
+{
+  "seed": 99,
+  "galaxies": [
+    {
+      "center": [
+        -7,
+        0,
+        -2
+      ],
+      "velocity": [
+        1.1,
+        0,
+        -0.18
+      ],
+      "count": 3500,
+      "radius": 5,
+      "core_mass": 350
+    },
+    {
+      "center": [
+        7,
+        0,
+        2
+      ],
+      "velocity": [
+        -1.1,
+        0,
+        0.18
+      ],
+      "count": 3500,
+      "radius": 5,
+      "core_mass": 350
+    }
+  ],
+  "clusters": [],
+  "singles": [],
+  "sim": {
+    "dt": 0.006,
+    "steps": 600,
+    "softening": 2.0
+  },
+  "render": {
+    "width": 800,
+    "height": 450,
+    "every": 3,
+    "fps": 20,
+    "span": 40,
+    "vmax": 14,
+    "center": [
+      0,
+      0,
+      0
+    ]
+  },
+  "output": "renders/colossus.gif"
+}

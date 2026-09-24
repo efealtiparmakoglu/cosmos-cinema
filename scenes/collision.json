@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "galaxies": [
+    {
+      "center": [
+        -6,
+        0,
+        -2.5
+      ],
+      "velocity": [
+        1.0,
+        0,
+        0.2
+      ],
+      "count": 2400,
+      "radius": 5,
+      "core_mass": 250
+    },
+    {
+      "center": [
+        6,
+        0,
+        2.5
+      ],
+      "velocity": [
+        -1.0,
+        0,
+        -0.2
+      ],
+      "count": 2400,
+      "radius": 5,
+      "core_mass": 250
+    }
+  ],
+  "clusters": [],
+  "singles": [],
+  "sim": {
+    "dt": 0.006,
+    "steps": 650,
+    "softening": 2.0
+  },
+  "render": {
+    "width": 800,
+    "height": 450,
+    "every": 3,
+    "fps": 20,
+    "span": 36,
+    "vmax": 25,
+    "center": [
+      0,
+      0,
+      0
+    ]
+  },
+  "output": "renders/collision.gif"
+}
